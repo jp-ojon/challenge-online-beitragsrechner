@@ -1,8 +1,8 @@
 # Playwright Test Suite for UI Automation Tests of Digital Assistant "Online-Beitragsrechner"
 ## Overview
 This test suite includes automated tests for the following:
-Functional Testing
-o Test Case TC-001: Online-Beitragsrechner Test
+- Functional Testing
+- Test Case TC-001: Online-Beitragsrechner Test
 
 ## Author
 Jon Paulo Ojon
@@ -28,11 +28,11 @@ Jon Paulo Ojon
 
 ## Test Data
 - The testDataFile.json should be populated using the correct values
-EmploymentStatus - should be based on the possible selections under Berufsstatus
-Income - should be a number without decimals
-InsuranceType - should be based on the possible selections under Versicherungswunsch
-InsuranceIngressDate - should be based on the possible selections on the dropdown list of Versicherungsstart. Format should be DD.MM.YYYY
-Birthday (Any) - Format should be DD.MM.YYYY
+- EmploymentStatus - should be based on the possible selections under Berufsstatus
+- Income - should be a number without decimals
+- InsuranceType - should be based on the possible selections under Versicherungswunsch
+- InsuranceIngressDate - should be based on the possible selections on the dropdown list of Versicherungsstart. Format should be DD.MM.YYYY
+- Birthday (Any) - Format should be DD.MM.YYYY
 
 ## Running Tests
 Use the following commands in any terminal or cmd line to run tests in different browsers:
