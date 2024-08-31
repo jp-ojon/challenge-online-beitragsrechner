@@ -27,7 +27,7 @@ Jon Paulo Ojon
 - Test Case TC-001: Online-Beitragsrechner Test
 
 ## Test Data
-- The testDataFile.json should be populated using the correct values
+- The testDataFile.json under testdata folder should be populated using the correct values
 - EmploymentStatus - should be based on the possible selections under Berufsstatus
 - Income - should be a number without decimals
 - InsuranceType - should be based on the possible selections under Versicherungswunsch
