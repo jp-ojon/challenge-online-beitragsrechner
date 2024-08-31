@@ -1,0 +1,20 @@
+{
+  "name": "challenge-online-beitragsrechner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:development": "cross-env ENVIRONMENT=development npx playwright test",
+    "test:production": "cross-env ENVIRONMENT=production npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

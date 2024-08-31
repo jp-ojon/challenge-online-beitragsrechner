@@ -1,0 +1,11 @@
+{
+    "EmploymentStatus": "Angestellt",
+    "Income": 70000,
+    "InsuranceType": "Vollversicherung",
+    "InsuranceIngressDate": "01.10.2024",
+    "BirthdayMaxValue": "99.99.9999",
+    "BirthdayFutureDate": "31.12.2025",
+    "BirthdayLessThan16": "01.01.2020",
+    "BirthdayMoreThan100": "01.01.1900",
+    "BirthdayValid": "31.12.2000"
+}
