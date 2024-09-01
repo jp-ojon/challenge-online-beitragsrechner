@@ -30,11 +30,19 @@ export class OnlinePremiumCalculatorPage {
         this.insuranceStatusContinueButton = this.page.locator('button[data-cy="insurance-status-continue"]')
     }
 
+    /**
+     * This method will select the Employment Status based on the provided string value
+     * @param value 
+     */
     async clickEmploymentStatusOption(value: string) {
         this.employmentStatus = this.page.locator('label', { hasText: `${value}` })
         await this.employmentStatus.click()
     }
 
+    /**
+     * This method will fill the Income Input Field based on the provided string value
+     * @param value 
+     */
     async fillIncomeInputField(value: string) {
         await this.incomeInputField.fill(value)
     }
@@ -43,11 +51,19 @@ export class OnlinePremiumCalculatorPage {
         await this.employmentStatusContinueButton.click()
     }
 
+    /**
+     * This method will select Insurance Type based on the provided string value
+     * @param value 
+     */
     async clickInsuranceTypeOption(value: string) {
         this.insuranceType = this.page.locator('label.radio-button', { hasText: `${value}` })
         await this.insuranceType.click()
     }
 
+    /**
+     * This method will select an option on the Insurance Ingress Date Dropdown based on the provided string value. Should be in Format DD.MM.YYYY.
+     * @param value 
+     */
     async selectOptionInsuranceIngressDateDropDown(value: string) {
         await this.insuranceIngressDateDropDown.selectOption(value)
     }
@@ -56,6 +72,10 @@ export class OnlinePremiumCalculatorPage {
         await this.insuranceProductContinueButton.click()
     }
 
+    /**
+     * This method will clear and then fill All Birthday Input Fields. Should be in Format DD.MM.YYYY.
+     * @param birthdayString 
+     */
     async fillBirthdayInputAllFields(birthdayString: string) {
         // Split the birthday string into day, month, and year components
         let [day, month, year] = birthdayString.split('.');

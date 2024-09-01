@@ -1,4 +1,4 @@
-import { test, expect, Locator } from '@playwright/test'
+import { test, expect } from '@playwright/test'
 import { OnlinePremiumCalculatorPage } from '../page-objects/onlinePremiumCalculatorPage'
 import { readJSONTestData } from '../utilities/reader'
 import { baseURL } from '../playwright.config'
@@ -8,7 +8,7 @@ test.describe('Digital Assistant Tests', () => {
     let testData: any //for storing test data from json files.
 
     test.beforeAll(async () => {
-        //Read test data .json files to be used for later verification.
+        //Read test data .json files to be used as input.
         testData = await readJSONTestData('testDataFile.json')
     })
 
